@@ -35,7 +35,7 @@ if(!function_exists("cc_post_relacionado")){
 			);
 			if($loop->have_posts())
 			{
-				$content.="Post Relacionados";
+				$content.="Post de la categoria";
 				$content.="<hr/>";
 				$content.="<ul>";
 					while($loop->have_posts()) {
